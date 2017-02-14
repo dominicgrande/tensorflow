@@ -30,7 +30,8 @@ Construct and execute TensorFlow graphs in Go.
     sudo tar -C /usr/local -xz
     ```
 
-2.  `go get` this package (and run tests):
+2.   Go 1.7 or above is required or it will not compile
+    `go get` this package (and run tests):
 
     ```sh
     go get github.com/tensorflow/tensorflow/tensorflow/go

@@ -118,6 +118,14 @@ from source.
     ```sh
     go test github.com/tensorflow/tensorflow/tensorflow/go
     ```
+    
+## Things to Implement in Go
+1. C++ Save model serialization. Currently has load model it might be helpful to look at that code.
+2. Ability to add operations -- https://www.tensorflow.org/how_tos/adding_an_op/ C++ tutorial
+
+
+## Helpful things for Go Implementation
+https://www.tensorflow.org/tutorials/image_recognition/#usage_with_the_c_api
 
 ## Support
 
